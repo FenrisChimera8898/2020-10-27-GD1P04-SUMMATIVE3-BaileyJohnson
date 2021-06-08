@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{18f7e177-3ea6-4b57-ab77-cb713a1fcebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{4e39cb47-f30a-4410-bccb-69f4c0e581df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{3249149f-3acc-4c6e-bad3-6e14b16ff94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{db6c54c9-3b78-44d6-b41e-50ff9d946178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{b537045e-102d-43ee-8ab0-e88bd0c5a36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{e11fb5f1-014d-4d96-89c9-9e06c6113b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Lighting">
+      <UniqueIdentifier>{b07083f2-5e92-4c7f-b3ef-1e2f596946ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Reflection">
+      <UniqueIdentifier>{d97ccdc9-14bc-4fa1-b6ba-349b19a4ddc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Model">
+      <UniqueIdentifier>{475f8a54-906f-40e8-88d3-f1e33ba7eae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SkyBox">
+      <UniqueIdentifier>{5012d559-2fdf-4018-aec9-9f4b3c348140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Text">
+      <UniqueIdentifier>{f867c50b-266a-4bd4-bf93-0ceebed1907f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Heightmap">
+      <UniqueIdentifier>{8cef84b1-96e6-48d8-843d-f1ceac26cf31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLoader.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMap_Skybox.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Heightmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoader.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap_Skybox.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Heightmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\Diffuse.vs">
+      <Filter>Resource Files\Lighting</Filter>
+    </None>
+    <None Include="Resources\Shaders\PhongDiffuse.fs">
+      <Filter>Resource Files\Lighting</Filter>
+    </None>
+    <None Include="Resources\Shaders\RimLighting.fs">
+      <Filter>Resource Files\Lighting</Filter>
+    </None>
+    <None Include="Resources\Shaders\Reflection.fs">
+      <Filter>Resource Files\Reflection</Filter>
+    </None>
+    <None Include="Resources\Shaders\Reflection.vs">
+      <Filter>Resource Files\Reflection</Filter>
+    </None>
+    <None Include="Resources\Shaders\Model.fs">
+      <Filter>Resource Files\Model</Filter>
+    </None>
+    <None Include="Resources\Shaders\Model.vs">
+      <Filter>Resource Files\Model</Filter>
+    </None>
+    <None Include="Resources\Shaders\Cubemap.fs">
+      <Filter>Resource Files\SkyBox</Filter>
+    </None>
+    <None Include="Resources\Shaders\Cubemap.vs">
+      <Filter>Resource Files\SkyBox</Filter>
+    </None>
+    <None Include="Resources\Shaders\Text.fs">
+      <Filter>Resource Files\Text</Filter>
+    </None>
+    <None Include="Resources\Shaders\Text.vs">
+      <Filter>Resource Files\Text</Filter>
+    </None>
+    <None Include="Resources\Shaders\Heightmap.fs">
+      <Filter>Resource Files\Heightmap</Filter>
+    </None>
+    <None Include="Resources\Shaders\Heightmap.vs">
+      <Filter>Resource Files\Heightmap</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+#pragma once
+
+// Dependency Includes
+#include <glew.h>
+#include <freeglut.h>
+
+// Library Includes
+#include <iostream>
+
+class ShaderLoader
+{
+	
+public:	
+	static GLuint CreateProgram(const char* VertexShaderFilename, const char* FragmentShaderFilename);
+	static GLuint CreateShape(GLsizeiptr ind_size, GLuint* indices, GLsizeiptr vex_size, GLfloat* vertices);
+	static GLuint CreateTexture(const char* texname);
+
+private:
+	ShaderLoader(void);
+	~ShaderLoader(void);
+	static GLuint CreateShader(GLenum shaderType, const char* shaderName);
+	static std::string ReadShaderFile(const char *filename);
+	static void PrintErrorDetails(bool isShader, GLuint id, const char* name);
+};
